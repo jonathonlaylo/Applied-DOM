@@ -244,7 +244,7 @@
    * that is the result of invoking the Function prototype method, bind
    * on the setMyLightGreen function
    */
-
+   btn14.addEventListener('click', setMyLightGreen.bind(btn14));
 
   /*
    * Add a click event listener to btn15
